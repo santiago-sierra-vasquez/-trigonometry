@@ -2,17 +2,14 @@ from cmath import sin
 
 
 def main():
-    opcions = {
-        "1" : "area",
-        "2" : "perimetro"
-    }
-    opcion = opcions[input("""
+
+    opcion = input("""
         1 = area
         2 = perimetro
 
-        """)]
+        """)
 
-    if opcion == "area":
+    if opcion == "1":
 
         def area_triangle_edges(e1, e2, e3):
             s = (e1 + e2 + e3) / 2
@@ -64,7 +61,7 @@ def main():
             print(f"Area = {a}")
 
     
-    if opcion == "perimetro":
+    if opcion == "2":
 
         def perimeter_triangle(e1, e2, e3):
             p = e1 + e2 + e3
