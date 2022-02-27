@@ -4,10 +4,10 @@ from cmath import sin
 def main():
 
     opcion = input("""
-        1 = area
-        2 = perimetro
+1 = area
+2 = perimetro
 
-        """)
+""")
 
     if opcion == "1":
 
@@ -30,11 +30,11 @@ def main():
 
 
         datos = input("""
-        1 = todos los lados
-        2 = un lado, su angulo opuesto y otro angulo
-        3 = base y altura
+1 = todos los lados
+2 = un lado, su angulo opuesto y otro angulo
+3 = base y altura
 
-        """)
+""")
 
         if datos == "1":
             e1 = float(input("Longitud del lado 1: "))
@@ -74,10 +74,10 @@ def main():
             return e2, e3
 
         datos = input("""
-        1 = todos los lados
-        2 = un lado, su angulo opuesto y otro angulo
+1 = todos los lados
+2 = un lado, su angulo opuesto y otro angulo
 
-        """)
+""")
 
         if datos == "1":
             e1 = float(input("Longitud del lado 1: "))
